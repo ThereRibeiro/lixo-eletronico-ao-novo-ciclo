@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Do Lixo Eletrônico ao Novo Ciclo</title>
+  <meta name="description" content="Projeto educativo sobre descarte consciente de lixo eletrônico, reciclagem tecnológica e economia circular." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ 
+  <header class="header" id="topo">
+    <div class="header-inner">
+      <a class="logo" href="#inicio" aria-label="Voltar ao início">
+        <img src="./img/logo-ecotech.png" alt="Logo EcoTech" />
+      </a>
+      <div class="site-title">Do Lixo Eletrônico ao Novo Ciclo</div>
+      <nav class="navbar" aria-label="Navegação principal">
+        <div class="nav-desktop">
+          <div class="nav-more">
+            <button class="nav-more-btn" id="nav-more-btn" type="button" aria-expanded="false" aria-controls="nav-more-panel">
+              <span>Explorar</span>
+              <span class="nav-more-arrow" aria-hidden="true">▾</span>
+            </button>
+            <div class="nav-more-panel" id="nav-more-panel">
+              <a href="#jornada">Etapas</a>
+              <a href="#galeria">Galeria</a>
+              <a href="#curiosidades">Curiosidades</a>
+              <a href="#quiz">Quiz</a>
+              <a href="#sustentabilidade">Boas Práticas</a>
+              <a href="#video">Vídeo</a>
+              <a href="#hq">HQ</a>
+              <a href="#contato">Contato</a>
+            </div>
+          </div>
+        </div>
+        <button class="hamburger" id="menu-toggle" aria-label="Abrir menu" aria-controls="nav-links" aria-expanded="false">
+          ☰
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#jornada">Etapas</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#curiosidades">Curiosidades</a></li>
+          <li><a href="#quiz">Quiz</a></li>
+          <li><a href="#sustentabilidade">Boas Práticas</a></li>
+          <li><a href="#video">Vídeo</a></li>
+          <li><a href="#hq">HQ</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <button id="accessibility-btn" class="accessibility-fixed" aria-label="Menu de acessibilidade" aria-expanded="false">
+    A+
+  </button>
+  <div id="accessibility-menu" class="accessibility-menu hidden" role="dialog" aria-label="Menu de acessibilidade">
+    <button type="button" data-accessibility-action="increase-font">Aumentar fonte</button>
+    <button type="button" data-accessibility-action="decrease-font">Diminuir fonte</button>
+    <button type="button" data-accessibility-action="toggle-contrast">Alto contraste</button>
+  </div>
+
+  <main>
+
+    <section id="inicio" class="hero-section reveal">
+      <div class="hero-shell">
+        <div class="hero-copy">
+          <span class="eyebrow">Tecnologia e sustentabilidade</span>
+          <h1>Tecnologia consciente, futuro limpo em cada etapa do descarte</h1>
+          <p>
+            De <strong>celulares, pilhas e computadores sem uso</strong> até a <strong>recuperação de materiais valiosos</strong>, a reciclagem eletrônica evita a contaminação do solo e transforma resíduos em novos recursos.
+          </p>
+          <p>
+            Entender o destino correto dos equipamentos ajuda escolas, famílias e empresas a reduzirem impactos ambientais e fortalecerem a economia circular.
+          </p>
+          <div class="hero-actions">
+            <a class="action-btn" href="#jornada">Conhecer o ciclo</a>
+            <a class="secondary-btn" href="#sustentabilidade">Como descartar</a>
+          </div>
+          <div class="hero-points" aria-label="Pontos centrais do projeto">
+            <div class="hero-point">
+              <strong>Coleta</strong>
+              <span>Separação segura de aparelhos, cabos e baterias.</span>
+            </div>
+            <div class="hero-point">
+              <strong>Triagem</strong>
+              <span>Desmontagem técnica e reaproveitamento de peças.</span>
+            </div>
+            <div class="hero-point">
+              <strong>Novo Ciclo</strong>
+              <span>Metais e plásticos retornam para a indústria.</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-image-card">
+            <img src="./img/hero-eletronicos.png" alt="Componentes eletrônicos organizados para reciclagem" />
+            <div class="hero-image-overlay">
+              <span>Menos lixo, mais inovação</span>
+              <strong>O aparelho que parou de funcionar ainda guarda peças e materiais que podem ganhar nova vida.</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="jornada" class="content-section reveal">
+      <div class="section-heading">
+        <span class="section-tag">Ciclo do e-lixo</span>
+        <h2>Do descarte ao reaproveitamento</h2>
+        <p>Veja o caminho que os equipamentos eletrônicos percorrem quando são descartados da maneira correta.</p>
+      </div>
+      <div class="process-grid">
+        <article class="surface-block process-card">
+          <div class="process-number">01</div>
+          <h3>Descarte consciente</h3>
+          <p>Aparelhos quebrados, carregadores, pilhas e baterias são separados do lixo comum e levados a ecopontos.</p>
+        </article>
+        <article class="surface-block process-card">
+          <div class="process-number">02</div>
+          <h3>Triagem e desmontagem</h3>
+          <p>Técnicos classificam o que pode ser consertado e separam placas, plásticos, vidros e metais com segurança.</p>
+        </article>
+        <article class="surface-block process-card">
+          <div class="process-number">03</div>
+          <h3>Reaproveitamento e educação</h3>
+          <p>Materiais recuperados voltam como matéria-prima para novas fábricas ou viram projetos de robótica escolar.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="content-section reveal">
+      <div class="section-heading">
+        <span class="section-tag">Galeria</span>
+        <h2>Por dentro da reciclagem eletrônica</h2>
+        <p>Registros visuais sobre coleta seletiva, componentes internos e projetos de reutilização.</p>
+      </div>
+      <div class="surface-block gallery-block">
+        <div class="carousel-wrapper">
+          <img class="carousel-preview preview-left" id="carousel-preview-left" alt="" aria-hidden="true" />
+          <img class="carousel-preview preview-right" id="carousel-preview-right" alt="" aria-hidden="true" />
+          <button class="carousel-btn left" type="button" data-carousel-direction="-1" aria-label="Imagem anterior">❮</button>
+          <div class="carousel-slide" id="carousel-slide"></div>
+          <button class="carousel-btn right" type="button" data-carousel-direction="1" aria-label="Próxima imagem">❯</button>
+        </div>
+        <div class="carousel-caption">
+          <div>
+            <h3 id="carousel-title"></h3>
+            <p id="carousel-description"></p>
+          </div>
+          <div class="carousel-dots" id="carousel-dots" aria-label="Indicadores do carrossel"></div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="curiosidades" class="content-section reveal">
+      <div class="section-heading">
+        <span class="section-tag">Curiosidades</span>
+        <h2>Você sabia?</h2>
+        <p>Fatos importantes sobre o impacto e o valor escondido nos eletrônicos.</p>
+      </div>
+      <div class="surface-block info-box">
+        <p id="fact-text">Uma tonelada de celulares antigos pode conter muito mais ouro do que uma tonelada de minério bruto extraído da natureza.</p>
+        <button id="fact-btn" class="action-btn" type="button">Mostrar outra curiosidade</button>
+      </div>
+    </section>
+
+    <!-- Quiz -->
+    <section id="quiz" class="content-section reveal">
+      <div class="section-heading">
+        <span class="section-tag">Interatividade</span>
+        <h2>Quiz: teste seus conhecimentos</h2>
+        <p>Descubra o quanto você sabe sobre descarte correto e reciclagem tecnológica.</p>
+      </div>
+      <form id="quiz-form" class="surface-block quiz-form">
+        <div class="quiz-question">
+          <p><strong>1.</strong> Onde pilhas, baterias e celulares quebrados devem ser descartados?</p>
+          <label><input type="radio" name="q1" value="errado" /> No lixo orgânico da cozinha</label>
+          <label><input type="radio" name="q1" value="certo" /> Em pontos de coleta de lixo eletrônico</label>
+          <label><input type="radio" name="q1" value="errado" /> Queimados no quintal</label>
+        </div>
+        <div class="quiz-question">
+          <p><strong>2.</strong> Qual é o principal risco do descarte incorreto de eletrônicos na natureza?</p>
+          <label><input type="radio" name="q2" value="errado" /> Aumentar a fertilidade do solo</label>
+          <label><input type="radio" name="q2" value="certo" /> Contaminação do solo e da água por metais pesados</label>
+          <label><input type="radio" name="q2" value="errado" /> Nenhum impacto ambiental</label>
+        </div>
+        <div class="quiz-question">
+          <p><strong>3.</strong> O que significa “economia circular” na tecnologia?</p>
+          <label><input type="radio" name="q3" value="errado" /> Comprar um aparelho novo toda semana</label>
+          <label><input type="radio" name="q3" value="certo" /> Reutilizar, reparar e reciclar materiais para reduzir resíduos</label>
+          <label><input type="radio" name="q3" value="errado" /> Guardar aparelhos quebrados para sempre na gaveta</label>
+        </div>
+        <div class="quiz-question">
