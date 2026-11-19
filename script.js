@@ -74,26 +74,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const slides = [
-    {
-      src: "./img/galeria-coleta.png",
-      alt: "Ponto de coleta de lixo eletrônico",
-      title: "1. Pontos de Coleta Seletiva",
-      description: "Locais preparados para receber celulares, pilhas, cabos e eletrodomésticos sem uso."
-    },
-    {
-      src: "./img/galeria-triagem.png",
-      alt: "Desmontagem de placas eletrônicas",
-      title: "2. Triagem e Desmontagem Segura",
-      description: "Separação técnica de placas de circuito, baterias, plásticos e metais."
-    },
-    {
-      src: "./img/galeria-robotica.png",
-      alt: "Projeto escolar de robótica com peças reaproveitadas",
-      title: "3. Reaproveitamento na Educação",
-      description: "Motores, fios e sensores ganham nova vida em oficinas de ciência e robótica."
-    }
-  ];
+const slides = [
+  {
+    src: "destinacao.jpg",
+    alt: "Ponto de coleta de lixo eletrônico",
+    title: "1. Pontos de Coleta Seletiva",
+    description: "Locais preparados para receber celulares, pilhas, cabos e eletrodomésticos sem uso."
+  },
+  {
+    src: "impacto.jpg",
+    alt: "Desmontagem de placas eletrônicas",
+    title: "2. Triagem e Desmontagem Segura",
+    description: "Separação técnica de placas de circuito, baterias, plásticos e metais."
+  },
+  {
+    src: "reciclar.jpg",
+    alt: "Projeto escolar de robótica com peças reaproveitadas",
+    title: "3. Reaproveitamento na Educação",
+    description: "Motores, fios e sensores ganham nova vida em oficinas de ciência e robótica."
+  }
+];
 
   let currentSlide = 0;
   const slideContainer = document.getElementById("carousel-slide");
