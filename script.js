@@ -162,7 +162,7 @@ const slides = [
   if (quizForm && quizResult) {
     quizForm.addEventListener("submit", (e) => {
       e.preventDefault();
-      const totalQuestions = 5;
+      const totalQuestions = 8;
       let score = 0;
       let answered = 0;
 
