@@ -76,19 +76,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
 const slides = [
   {
-    src: "destinacao.jpg",
+    src: "impacto.jpg",
     alt: "Ponto de coleta de lixo eletrônico",
     title: "1. Pontos de Coleta Seletiva",
     description: "Locais preparados para receber celulares, pilhas, cabos e eletrodomésticos sem uso."
   },
   {
-    src: "impacto.jpg",
+    src: "eletronicos.jpg",
     alt: "Desmontagem de placas eletrônicas",
     title: "2. Triagem e Desmontagem Segura",
     description: "Separação técnica de placas de circuito, baterias, plásticos e metais."
   },
   {
-    src: "reciclar.jpg",
+    src: "destinacao.jpg",
     alt: "Projeto escolar de robótica com peças reaproveitadas",
     title: "3. Reaproveitamento na Educação",
     description: "Motores, fios e sensores ganham nova vida em oficinas de ciência e robótica."
